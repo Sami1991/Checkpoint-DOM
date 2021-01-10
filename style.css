@@ -1,0 +1,76 @@
+body{
+    background-color: #d6e2e062;
+}
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.shopping-cart{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 10px;
+}
+
+.item-description{
+    display: flex;
+    align-items: center;
+    border: 1px groove #000000;
+    border-style: groove;
+}
+
+.item-description img{
+    width: 50%;
+    height: auto;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.item-qte, .item-unit-price, .item-total-price, .all-items-total-price, .like-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px groove #000000;
+    border-style: groove;
+}
+.item-total-price, .item-unit-price{
+    font-size: large;
+}
+.sup{
+    width: 25% !important;
+    height: auto;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.qte{
+    border: groove 1px #000000;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.grid-overwrite{
+    grid-template-columns: 1fr;
+}
+
+.deleteLink{
+    text-decoration: none;
+}
+.titre{
+    font-size: x-large;
+}
+.all-items-total-price{
+    font-size: x-large;
+}
